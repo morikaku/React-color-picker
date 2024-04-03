@@ -12,9 +12,16 @@
     position: relative;
 }
 
+
+.under_construction {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: red;
+}
+
 .color__text {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .color__button {

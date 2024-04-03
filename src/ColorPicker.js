@@ -17,10 +17,12 @@ class ColorPicker extends React.Component {
 
     handleOpen = () => {
         this.setState({ open: !this.state.open });
+        console.log(this.state.open);
     }
 
     handleClose = () => {
         this.setState({ open: false });
+        console.log(this.state.open);
     }
 
     render() {
@@ -28,6 +30,7 @@ class ColorPicker extends React.Component {
             <>
                 <div className={style.container} style={{ background: this.state.color }}>
                     <h1 className={style.color__title}>Color Picker</h1>
+                    <div className={style.under_construction}>Under Construction</div>
                     <div className={style.color__text}>Selected : {this.state.color}</div>
                     <button className={style.color__button} onClick={this.handleOpen}>Select color</button>
                     {this.state.open && (
