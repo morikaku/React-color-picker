@@ -4,7 +4,7 @@ import style from "./ColorPicker.module.css";
 
 class ColorPicker extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
         this.state = {
             open: false,
             color: "#9999ff",
@@ -30,13 +30,14 @@ class ColorPicker extends React.Component {
             <>
                 <div className={style.container} style={{ background: this.state.color }}>
                     <h1 className={style.color__title}>Color Picker</h1>
-                    <div className={style.under_construction}>Under Construction</div>
                     <div className={style.color__text}>Selected : {this.state.color}</div>
                     <button className={style.color__button} onClick={this.handleOpen}>Select color</button>
                     {this.state.open && (
-                        <div className={style.color__overlay} onClick={this.handleClose}></div>
+                        <div className={style.picker_area}>
+                            <div className={style.color__overlay} onClick={this.handleClose}></div>
+                            <SketchPicker color={this.state.color} onChange={this.handleChange} />
+                        </div>
                     )}
-                    <SketchPicker color={this.state.color} onChange={this.handleChange} />
                 </div>
             </>
         );

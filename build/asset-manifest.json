@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-color-picker/build/static/css/main.b227dd02.css",
-    "main.js": "/React-color-picker/build/static/js/main.13407ac8.js",
+    "main.css": "/React-color-picker/build/static/css/main.a9cab41c.css",
+    "main.js": "/React-color-picker/build/static/js/main.ffb51ce0.js",
     "static/js/453.7081e2af.chunk.js": "/React-color-picker/build/static/js/453.7081e2af.chunk.js",
     "index.html": "/React-color-picker/build/index.html",
-    "main.b227dd02.css.map": "/React-color-picker/build/static/css/main.b227dd02.css.map",
-    "main.13407ac8.js.map": "/React-color-picker/build/static/js/main.13407ac8.js.map",
+    "main.a9cab41c.css.map": "/React-color-picker/build/static/css/main.a9cab41c.css.map",
+    "main.ffb51ce0.js.map": "/React-color-picker/build/static/js/main.ffb51ce0.js.map",
     "453.7081e2af.chunk.js.map": "/React-color-picker/build/static/js/453.7081e2af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b227dd02.css",
-    "static/js/main.13407ac8.js"
+    "static/css/main.a9cab41c.css",
+    "static/js/main.ffb51ce0.js"
   ]
 }
